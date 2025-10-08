@@ -71,19 +71,19 @@ Aqui está a lista completa de comandos disponíveis no editor:
 
 | Comando                 | Atalhos | Descrição                                                                                             |
 | ----------------------- | ------- | ----------------------------------------------------------------------------------------------------- |
-| `ajuda`                 |         | Mostra la lista completa de comandos disponibles.                                                     |
-| `ver`                   |         | Lista los campos del objeto actual o el contenido paginado de una lista/array.                       |
-| `entrar <campo>`        |         | Navega hacia adentro del objeto contenido en un campo. Ej: `entrar ag`.                                   |
-| `item <índice>`         |         | Navega a un ítem específico de una lista o array. Ej: `item 10`.                                     |
-| `proxima`               | `p`     | Avanza a la siguiente página al visualizar una lista/array.                                          |
-| `anterior`              | `a`     | Retrocede a la página anterior al visualizar una lista/array.                                        |
-| `voltar`                |         | Regresa al objeto anterior en la jerarquía de navegación.                                             |
-| `topo`                  |         | Regresa directamente al objeto raíz del save.                                                          |
-| `buscar <termo>`        |         | Busca un término a partir de tu ubicación actual.                                                    |
-| `busca-global <termo>`  |         | Busca un término en todo el archivo de save, desde la raíz.                                          |
-| `set <campo> = <valor>` |         | Modifica el valor de un campo en el objeto actual. Ej: `set eq = 99`.                                   |
-| `mapear <arq>; <termo>` |         | Mapea y guarda en un `.txt` todos los objetos que contienen el término. Ej: `mapear jogadores.txt; Lionel Messi`. |
-| `editarjogador <n>;<i>;<o>` |     | Edita la edad `<i>` y el over `<o>` del jugador `<n>`. Ej: `editarjogador Zico; 35; 99`.                 |
+| `ajuda`                 |         | Mostra a lista completa de comandos disponíveis.                                                     |
+| `ver`                   |         | Lista os campos do objeto atual e o conteúdo paginado em uma lista/array.                       |
+| `entrar <campo>`        |         | Navega dentro do objeto disponível em um campo. Ex: `entrar ag`.                                   |
+| `item <índice>`         |         | Navega em um item específico de uma lista ou array. Ex: `item 10`.                                     |
+| `proxima`               | `p`     | Avança a página seguinte ao visualizar uma lista/array.                                          |
+| `anterior`              | `a`     | Retrocede a página anterior ao visualizar uma lista/array.                                        |
+| `voltar`                |         | Volta ao objeto anterior na hierarquia de navegação.                                             |
+| `topo`                  |         | Retrocede diretamente ao objeto raíz do save.                                                          |
+| `buscar <termo>`        |         | Busca um termo a partir do objeto atual.                                                    |
+| `busca-global <termo>`  |         | Busca um termo em todo o arquivo do save, desde a raíz.                                          |
+| `set <campo> = <valor>` |         | Modifica o valor de um campo no objeto atual. Ex: `set eq = 99`.                                   |
+| `mapear <arq>; <termo>` |         | Mapeia e guarda em um `.txt` todos os objetos que contém o termo. Ex: `mapear jogadores.txt; Lionel Messi`. |
+| `editarjogador <n>;<i>;<o>` |     | Ex: Editar a idade `<i>` e o over `<o>` do jogador `<n>` `editarjogador Zico; 25; 99`.                 |
 | `editartime <t>;<a>;<v>` |         | Altera o atributo `<a>` para o valor `<v>` em todos os jogadores do time `<t>`. Ex: `editartime Flamengo; eq; 99`. |
 | `salvar <arquivo.s22>`  |         | Salva todas as modificações num novo ficheiro de save. Ex: `salvar meu_save_editado.s22`.             |
 | `sair`                  |         | Fecha o editor.                                                                                       |
