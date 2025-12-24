@@ -2,3 +2,4 @@ editor-final.jar
 build/
 fatjar_temp/
 temp/
+*.s22
